@@ -6,7 +6,7 @@ import userOctagon from "../../assets/icons/user-octagon.svg";
 function WhoAreWe() {
   return (
     <div className="mt-[79px]">
-      <p className="uppercase text-blue-500 text-[19px] font-medium mb-5 lg:mb-10">
+      <p className="uppercase text-secondary text-[19px] font-medium mb-5 lg:mb-10">
         WHO ARE WE
       </p>
       <div className="grid grid-cols-12 gap-6 lg:gap-[43px]">

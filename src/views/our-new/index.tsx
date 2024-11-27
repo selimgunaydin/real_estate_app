@@ -67,7 +67,7 @@ function OurNew() {
 
   return (
     <div className="mt-[100px] md:mt-[200px]">
-      <p className="uppercase text-blue-500 text-[19px] font-medium mb-5 lg:mb-[30px]">
+      <p className="uppercase text-secondary text-[19px] font-medium mb-5 lg:mb-[30px]">
         Checkout our new
       </p>
       <div className="flex flex-col md:flex-row w-full justify-between mb-[40px] md:mb-0">

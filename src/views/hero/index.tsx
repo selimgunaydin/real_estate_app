@@ -76,7 +76,7 @@ function Hero() {
     <>
       <div className="hero-bg"></div>
       <div className="mt-6 md:mt-[89px]">
-        <p className="uppercase text-blue-500 text-[19px] font-medium mb-5 lg:mb-[30px]">
+        <p className="uppercase text-secondary text-[19px] font-medium mb-5 lg:mb-[30px]">
           Real Estate
         </p>
 
