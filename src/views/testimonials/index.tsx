@@ -33,7 +33,7 @@ const dummyData = [
 
 function Testimonials() {
   return (
-    <div className="container pt-[100px] md:pt-[160px] grid grid-cols-12">
+    <div className="container pt-[100px] md:pt-[160px] grid grid-cols-12 mb-[65px] md:mb-[104px]">
       <div className="max-w-[415px] col-span-12 lg:col-span-6">
         <p className="uppercase text-secondary text-[19px] font-medium mb-5 lg:mb-[30px]">
           Testimonials
