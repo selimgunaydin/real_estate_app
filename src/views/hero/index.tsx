@@ -149,14 +149,14 @@ function Hero() {
                   return (
                     <div
                       key={index}
-                      className="relative w-9 h-9 rounded-full border-2 border-white flex-shrink-0"
+                      className="relative w-8 md:w-9 h-8 md:h-9 rounded-full border-2 border-white flex-shrink-0"
                     >
                       <Image
                         src={person.src}
                         alt={person.alt}
                         width={36}
                         height={36}
-                        className="rounded-full object-cover w-full h-full"
+                        className="rounded-full object-cover w-7 md:w-full h-7 md:h-full"
                       />
                       {isLastIndex && (
                         <div className="absolute inset-0 bg-black bg-opacity-70 rounded-full flex items-center justify-center">
@@ -169,7 +169,7 @@ function Hero() {
                   );
                 })}
               </div>
-              <p className="font-medium text-[19px] leading-[29px] w-[122px]">
+              <p className="font-medium md:text-[19px] leading-[29px] w-[122px]">
                 72k+ Happy Customers
               </p>
             </div>

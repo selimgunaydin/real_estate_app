@@ -75,31 +75,31 @@ const SaleForm = () => {
 const RentForm = () => {
   return (
     <form className="space-y-[30px] p-10 pt-[51px] pb-[60px]">
-      <Input
-        className="bg-[#d4d4d433] text-[#AAA] rounded-[20px] py-[24px] px-[20px] text-base w-[340px] border-none"
-        placeholder="Istanbul, Trabzon, etc"
-      />
+    <Input
+      className="bg-[#d4d4d433] text-[#AAA] rounded-[20px] py-[24px] px-[20px] text-base w-full border-none"
+      placeholder="Trabzon, Istanbul, etc"
+    />
+    <Select
+      className="bg-[#d4d4d433] text-[#AAA] rounded-[20px] py-[25px] px-[20px] text-base w-full border-none"
+      options={["Select Property Type", "Apartment", "House", "Studio"]}
+    />
+    <div>
       <Select
-        className="bg-[#d4d4d433] text-[#AAA] rounded-[20px] py-[25px] px-[20px] text-base w-[340px] border-none"
-        options={["Select Rent Type", "Apartment", "House", "Studio"]}
+        className="bg-[#d4d4d433] text-[#AAA] rounded-[20px] py-[25px] px-[20px] w-full border-none"
+        options={["Select Rooms", "1 Room", "2 Rooms", "3 Rooms"]}
       />
-      <div>
-        <Select
-          className="bg-[#d4d4d433] text-[#AAA] rounded-[20px] py-[25px] px-[20px] w-[340px] border-none"
-          options={["Select Rooms", "1 Room", "2 Rooms", "3 Rooms"]}
-        />
-        <p className="mt-5 flex gap-2.5 cursor-pointer">
-          <Image src={settings} height={14} width={14} alt="advanced-search" />
-          <span className="text-primary text-sm">Advance Search</span>
-        </p>
-      </div>
-      <Button
-        label="Search"
-        icon={<Image src={search} width={20} height={20} alt="search" />}
-        type="submit"
-        className="w-[340px]"
-      />
-    </form>
+      <p className="mt-5 flex gap-2.5 cursor-pointer">
+        <Image src={settings} height={14} width={14} alt="advanced-search" />
+        <span className="text-primary text-sm">Advance Search</span>
+      </p>
+    </div>
+    <Button
+      label="Search"
+      icon={<Image src={search} width={20} height={20} alt="search" />}
+      type="submit"
+      className="w-full"
+    />
+  </form>
   );
 };
 
